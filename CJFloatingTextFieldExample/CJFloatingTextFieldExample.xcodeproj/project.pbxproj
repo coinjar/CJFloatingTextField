@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CD7DD421A70A49300A76C15 /* CJFloatingLabelTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7DD411A70A49300A76C15 /* CJFloatingLabelTextField.m */; };
+		9CD7DD521A70A6DD00A76C15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7DD451A70A6DD00A76C15 /* AppDelegate.m */; };
+		9CD7DD531A70A6DD00A76C15 /* CJExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7DD4A1A70A6DD00A76C15 /* CJExampleViewController.m */; };
+		9CD7DD541A70A6DD00A76C15 /* CJExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CD7DD4C1A70A6DD00A76C15 /* CJExampleViewController.xib */; };
+		9CD7DD551A70A6DD00A76C15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD7DD4E1A70A6DD00A76C15 /* Images.xcassets */; };
+		9CD7DD571A70A6DD00A76C15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD7DD511A70A6DD00A76C15 /* main.m */; };
+		CE9F9E8B1900BC0338063993 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C00F1870834112791C6D0CBD /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44CE1F7DE304FDE5E1A415A3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9CD7DD111A70A2AD00A76C15 /* CJFloatingTextFieldExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CJFloatingTextFieldExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CD7DD401A70A49300A76C15 /* CJFloatingLabelTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJFloatingLabelTextField.h; sourceTree = "<group>"; };
+		9CD7DD411A70A49300A76C15 /* CJFloatingLabelTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJFloatingLabelTextField.m; sourceTree = "<group>"; };
+		9CD7DD441A70A6DD00A76C15 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CD7DD451A70A6DD00A76C15 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CD7DD491A70A6DD00A76C15 /* CJExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJExampleViewController.h; sourceTree = "<group>"; };
+		9CD7DD4A1A70A6DD00A76C15 /* CJExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJExampleViewController.m; sourceTree = "<group>"; };
+		9CD7DD4C1A70A6DD00A76C15 /* CJExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CJExampleViewController.xib; sourceTree = "<group>"; };
+		9CD7DD4E1A70A6DD00A76C15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9CD7DD501A70A6DD00A76C15 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CD7DD511A70A6DD00A76C15 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4254B3497BAC5B661D1036B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C00F1870834112791C6D0CBD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CD7DD0E1A70A2AD00A76C15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9F9E8B1900BC0338063993 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CEB4CDBDCBCFA31FAE88213 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C00F1870834112791C6D0CBD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5749F21F3658961AF21E44F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44CE1F7DE304FDE5E1A415A3 /* Pods.debug.xcconfig */,
+				A4254B3497BAC5B661D1036B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CD7DD081A70A2AD00A76C15 = {
+			isa = PBXGroup;
+			children = (
+				9CD7DD3F1A70A49300A76C15 /* CJFloatingTextField */,
+				9CD7DD131A70A2AD00A76C15 /* CJFloatingTextFieldExample */,
+				9CD7DD121A70A2AD00A76C15 /* Products */,
+				5749F21F3658961AF21E44F6 /* Pods */,
+				2CEB4CDBDCBCFA31FAE88213 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9CD7DD121A70A2AD00A76C15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7DD111A70A2AD00A76C15 /* CJFloatingTextFieldExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CD7DD131A70A2AD00A76C15 /* CJFloatingTextFieldExample */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7DD431A70A6DD00A76C15 /* Application Bootstrap */,
+				9CD7DD461A70A6DD00A76C15 /* Modules */,
+				9CD7DD4D1A70A6DD00A76C15 /* Resources */,
+				9CD7DD4F1A70A6DD00A76C15 /* Supporting Files */,
+			);
+			path = CJFloatingTextFieldExample;
+			sourceTree = "<group>";
+		};
+		9CD7DD3F1A70A49300A76C15 /* CJFloatingTextField */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7DD401A70A49300A76C15 /* CJFloatingLabelTextField.h */,
+				9CD7DD411A70A49300A76C15 /* CJFloatingLabelTextField.m */,
+			);
+			name = CJFloatingTextField;
+			path = ../CJFloatingTextField;
+			sourceTree = "<group>";
+		};
+		9CD7DD431A70A6DD00A76C15 /* Application Bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7DD441A70A6DD00A76C15 /* AppDelegate.h */,
+				9CD7DD451A70A6DD00A76C15 /* AppDelegate.m */,
+			);
+			path = "Application Bootstrap";
+			sourceTree = "<group>";
+		};
+		9CD7DD461A70A6DD00A76C15 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7DD471A70A6DD00A76C15 /* Example */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9CD7DD471A70A6DD00A76C15 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7DD481A70A6DD00A76C15 /* Controller */,
+				9CD7DD4B1A70A6DD00A76C15 /* View */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		9CD7DD481A70A6DD00A76C15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7DD491A70A6DD00A76C15 /* CJExampleViewController.h */,
+				9CD7DD4A1A70A6DD00A76C15 /* CJExampleViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9CD7DD4B1A70A6DD00A76C15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7DD4C1A70A6DD00A76C15 /* CJExampleViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9CD7DD4D1A70A6DD00A76C15 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7DD4E1A70A6DD00A76C15 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9CD7DD4F1A70A6DD00A76C15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CD7DD501A70A6DD00A76C15 /* Info.plist */,
+				9CD7DD511A70A6DD00A76C15 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CD7DD101A70A2AD00A76C15 /* CJFloatingTextFieldExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD7DD341A70A2AE00A76C15 /* Build configuration list for PBXNativeTarget "CJFloatingTextFieldExample" */;
+			buildPhases = (
+				E3287D17AA64C2EA5A749A90 /* Check Pods Manifest.lock */,
+				9CD7DD0D1A70A2AD00A76C15 /* Sources */,
+				9CD7DD0E1A70A2AD00A76C15 /* Frameworks */,
+				9CD7DD0F1A70A2AD00A76C15 /* Resources */,
+				8F4CFB1B8C15A79EA688E1D7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CJFloatingTextFieldExample;
+			productName = CJFloatingTextFieldExample;
+			productReference = 9CD7DD111A70A2AD00A76C15 /* CJFloatingTextFieldExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CD7DD091A70A2AD00A76C15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = CoinJar;
+				TargetAttributes = {
+					9CD7DD101A70A2AD00A76C15 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = XG5U7T7F4N;
+					};
+				};
+			};
+			buildConfigurationList = 9CD7DD0C1A70A2AD00A76C15 /* Build configuration list for PBXProject "CJFloatingTextFieldExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CD7DD081A70A2AD00A76C15;
+			productRefGroup = 9CD7DD121A70A2AD00A76C15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CD7DD101A70A2AD00A76C15 /* CJFloatingTextFieldExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CD7DD0F1A70A2AD00A76C15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD7DD541A70A6DD00A76C15 /* CJExampleViewController.xib in Resources */,
+				9CD7DD551A70A6DD00A76C15 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F4CFB1B8C15A79EA688E1D7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3287D17AA64C2EA5A749A90 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CD7DD0D1A70A2AD00A76C15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD7DD521A70A6DD00A76C15 /* AppDelegate.m in Sources */,
+				9CD7DD531A70A6DD00A76C15 /* CJExampleViewController.m in Sources */,
+				9CD7DD571A70A6DD00A76C15 /* main.m in Sources */,
+				9CD7DD421A70A49300A76C15 /* CJFloatingLabelTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9CD7DD321A70A2AE00A76C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9CD7DD331A70A2AE00A76C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CD7DD351A70A2AE00A76C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44CE1F7DE304FDE5E1A415A3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/CJFloatingTextFieldExample/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CD7DD361A70A2AE00A76C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4254B3497BAC5B661D1036B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/CJFloatingTextFieldExample/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CD7DD0C1A70A2AD00A76C15 /* Build configuration list for PBXProject "CJFloatingTextFieldExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD7DD321A70A2AE00A76C15 /* Debug */,
+				9CD7DD331A70A2AE00A76C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CD7DD341A70A2AE00A76C15 /* Build configuration list for PBXNativeTarget "CJFloatingTextFieldExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD7DD351A70A2AE00A76C15 /* Debug */,
+				9CD7DD361A70A2AE00A76C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CD7DD091A70A2AD00A76C15 /* Project object */;
+}
