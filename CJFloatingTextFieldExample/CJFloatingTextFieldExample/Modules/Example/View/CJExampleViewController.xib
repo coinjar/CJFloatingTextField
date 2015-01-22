@@ -41,12 +41,12 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EP6-lc-QJj">
                     <rect key="frame" x="51" y="310" width="72" height="30"/>
                     <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="19"/>
-                    <state key="normal" title="Show Text">
+                    <state key="normal" title="Show text">
                         <color key="titleColor" red="0.95410281609944103" green="0.97692025221061751" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                        <rect key="frame" x="26" y="227" width="105" height="30"/>
+                        <rect key="frame" x="26" y="227" width="105" height="38"/>
                     </variation>
                     <connections>
                         <action selector="showText:" destination="-1" eventType="touchUpInside" id="bKb-fc-mv2"/>
