@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CJExampleViewController">
+            <connections>
+                <outlet property="emailTextField" destination="ZQb-FM-Jnl" id="izz-li-LIX"/>
+                <outlet property="hideTextButton" destination="cg1-BU-6UZ" id="fUm-zw-aE4"/>
+                <outlet property="passwordTextField" destination="Nxp-p6-lPF" id="2os-qg-bfA"/>
+                <outlet property="showTextButton" destination="EP6-lc-QJj" id="LK3-bR-FYp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="bg__iPhone_6" translatesAutoresizingMaskIntoConstraints="NO" id="lx8-SS-Mnw">
+                    <rect key="frame" x="0.0" y="-667" width="375" height="667"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                    </variation>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZQb-FM-Jnl" customClass="CJFloatingLabelTextField">
+                    <rect key="frame" x="0.0" y="162" width="320" height="64"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="280" width="400" height="66"/>
+                    </variation>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nxp-p6-lPF" customClass="CJFloatingLabelTextField">
+                    <rect key="frame" x="0.0" y="227" width="320" height="64"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="346" width="400" height="64"/>
+                    </variation>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EP6-lc-QJj">
+                    <rect key="frame" x="51" y="310" width="72" height="30"/>
+                    <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="19"/>
+                    <state key="normal" title="Show Text">
+                        <color key="titleColor" red="0.95410281609944103" green="0.97692025221061751" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="26" y="227" width="105" height="30"/>
+                    </variation>
+                    <connections>
+                        <action selector="showText:" destination="-1" eventType="touchUpInside" id="bKb-fc-mv2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cg1-BU-6UZ">
+                    <rect key="frame" x="218" y="310" width="62" height="30"/>
+                    <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="19"/>
+                    <state key="normal" title="Hide text">
+                        <color key="titleColor" red="0.95410281609944103" green="0.97692025221061751" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="262" y="227" width="89" height="30"/>
+                    </variation>
+                    <connections>
+                        <action selector="hideText:" destination="-1" eventType="touchUpInside" id="cLh-Cq-hZ0"/>
+                    </connections>
+                </button>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo__coinjar" translatesAutoresizingMaskIntoConstraints="NO" id="crw-he-eSX">
+                    <rect key="frame" x="0.0" y="-73" width="96" height="73"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="152" y="51" width="96" height="73"/>
+                    </variation>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CJFloating label example" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-ae-8TI">
+                    <rect key="frame" x="69" y="31" width="182" height="21"/>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="18"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="64" y="156" width="273" height="32"/>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="lx8-SS-Mnw"/>
+                    <exclude reference="ZQb-FM-Jnl"/>
+                    <exclude reference="Nxp-p6-lPF"/>
+                    <exclude reference="EP6-lc-QJj"/>
+                    <exclude reference="cg1-BU-6UZ"/>
+                    <exclude reference="crw-he-eSX"/>
+                    <exclude reference="Bg5-ae-8TI"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="lx8-SS-Mnw"/>
+                    <include reference="ZQb-FM-Jnl"/>
+                    <include reference="Nxp-p6-lPF"/>
+                    <include reference="EP6-lc-QJj"/>
+                    <include reference="cg1-BU-6UZ"/>
+                    <include reference="crw-he-eSX"/>
+                    <include reference="Bg5-ae-8TI"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg__iPhone_6" width="375" height="667"/>
+        <image name="logo__coinjar" width="96" height="73"/>
+    </resources>
+</document>
