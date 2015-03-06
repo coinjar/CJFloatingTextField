@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.0'
 
-  s.source       = { :git => "git@github.com:coinjar/CJFloatingTextField.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/coinjar/CJFloatingTextField.git", :tag => s.version.to_s }
   s.source_files  = 'CJFloatingTextField', 'CJFloatingTextField/**/*.{h,m}'
 
   s.requires_arc = true
