@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                   highly configurable text field that comes with a floating display label and icon image view.
                    DESC
 
-  s.homepage     = "https://github.com/coinjar/cjfloatingtextfield"
+  s.homepage     = "https://github.com/coinjar/CJFloatingTextField"
 
   s.license      = 'MIT'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.0'
 
-  s.source       = { :git => "git@github.com/coinjar/cjfloatingtextfield.git", :tag => s.version.to_s }
+  s.source       = { :git => "git@github.com:coinjar/CJFloatingTextField.git", :tag => s.version.to_s }
   s.source_files  = 'CJFloatingTextField', 'CJFloatingTextField/**/*.{h,m}'
 
   s.requires_arc = true
