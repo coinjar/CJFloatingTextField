@@ -3,7 +3,7 @@
 </p>
 
 <br />
-CJFloatingLabel is a UI component designed as part of CoinJar touch. Inspired by the Google's polymer project, CJFloatingLabel provides a versatile, highly configurable text field that comes with a floating display label and icon image view.
+CJFloatingLabel is a UI component designed as part of CoinJar Touch. Inspired by the Google's polymer project, CJFloatingLabel provides a versatile, highly configurable text field that comes with a floating display label and icon image view.
 
 ## Features
 - Supports active & inactive states.
