@@ -18,7 +18,7 @@ If you have cocoapods setup on your machine, simply set the spec like this:
 #### Podfile
 ```ruby
 platform :ios, '8.0'
-pod "CJFloatingLabel", "~> 1.0.0"
+pod "CJFloatingTextField", "~> 1.0.0"
 ```
 
 ## Dependencies
